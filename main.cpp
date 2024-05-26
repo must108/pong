@@ -165,7 +165,6 @@ int main () {
             DrawText("Player 2 won!", screenWidth / 4, screenHeight / 2 - 100, 100, WHITE);
         }
 
-        EndDrawing();
     }
 
     CloseWindow();
