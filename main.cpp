@@ -158,6 +158,8 @@ int main () {
 
     while(WindowShouldClose() == false) {
         BeginDrawing();
+        ClearBackground(CAROLINA_BLUE);
+
 
     }
 
