@@ -159,8 +159,7 @@ int main () {
     while(WindowShouldClose() == false) {
         BeginDrawing();
         ClearBackground(CAROLINA_BLUE);
-
-
+        if (playerScore > player2Score) {
     }
 
     CloseWindow();
