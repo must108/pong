@@ -157,6 +157,7 @@ int main () {
     }
 
     while(WindowShouldClose() == false) {
+        BeginDrawing();
 
     }
 
