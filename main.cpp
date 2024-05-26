@@ -156,6 +156,10 @@ int main () {
         EndDrawing();
     }
 
+    while(WindowShouldClose() == false) {
+
+    }
+
     CloseWindow();
     return 0;
 }
