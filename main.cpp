@@ -160,6 +160,10 @@ int main () {
         BeginDrawing();
         ClearBackground(CAROLINA_BLUE);
         if (playerScore > player2Score) {
+            DrawText("Player 1 won!", screenWidth / 4, screenHeight / 2 - 100, 100, WHITE);
+        } 
+
+        EndDrawing();
     }
 
     CloseWindow();
