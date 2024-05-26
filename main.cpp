@@ -149,7 +149,7 @@ int main () {
             ball.speedX *= -1;
         }
 
-        if(playerScore >= 10 || player2Score >= 10) {
+        if(playerScore >= 2 || player2Score >= 2) {
             break;
         }
 
@@ -165,7 +165,9 @@ int main () {
             DrawText("Player 2 won!", screenWidth / 4, screenHeight / 2 - 100, 100, WHITE);
         }
 
-    }
+        EndDrawing();
+    }            
+
 
     CloseWindow();
     return 0;
