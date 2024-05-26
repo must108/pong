@@ -149,7 +149,7 @@ int main () {
             ball.speedX *= -1;
         }
 
-        if(playerScore >= 2 || player2Score >= 2) {
+        if(playerScore >= 10 || player2Score >= 10) {
             break;
         }
 
